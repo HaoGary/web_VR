@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Web</title>
+    <!-- magnific-popup css cdn link  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"> -->
+    <link rel="stylesheet" href="./lib/magnific-popup.css">
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- boot -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- slide -->
+    <link rel="stylesheet" href="./lib/splide/dist/css/splide.min.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/1392152695.js" crossorigin="anonymous"></script>
+    <!-- web logo -->
+    <link rel="shortcut icon" sizes="16x16" type="image/png" href="./img/logo.png">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ////////////////// header -->
+    <nav class="navbar navbar-expand-lg header position-fixed pt-4 pb-4" id="header">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="javascript:;"><img class="vr_logo" src="./img/VR_logo.png"
+                    alt=""></a>
+            <!-- buttom -->
+            <button class="navbar-toggler menu-bar" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- menu -->
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <li class=" home-link">
+                    <a class="nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <ul class="navbar-nav" id="navbar-nav">
+
+                    <li class="nav-item item-link">
+                        <a class="nav-link" href="#section1" data-target="section1">About</a>
+                    </li>
+                    <li class="nav-item item-link">
+                        <a class="nav-link" href="#section2" data-target="section2">Features</a>
+                    </li>
+                    <li class="nav-item item-link">
+                        <a class="nav-link" href="#section3" data-target="section3">Products</a>
+                    </li>
+                    <li class="nav-item item-link">
+                        <a class="nav-link" href="#section4" data-target="section4">Contact</a>
+                    </li>
+
+                    <li class="nav-item search">
+                        <!-- input -->
+                        <input type="text" class="input" placeholder="Search...">
+                        <!-- button -->
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ////////////////// slide page -->
+    <section class="slide-page" id="home">
+        <!-- Indicator -->
+        <ol class="slide-indicators">
+
+        </ol>
+        <ul class="slides">
+            <!-- slide_01 -->
+            <li class="slide-img">
+                <img src="./img/vr-img_01.jpg" alt="">
+                <div class="slide-content">
+                    <div class="slide-container">
+                        <div class="content-left">
+                            <h1>Virtual reality</h1>
+                            <h4>Online course to prepare you for a career as a 3D modeler for film and games</h4>
+                        </div>
+                        <div class="content-right">
+                            <h5>VR Games</h5>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- slide_02 -->
+            <li class="slide-img">
+                <img src="./img/vr-img_02.jpg" alt="">
+                <div class="slide-content">
+                    <div class="slide-container">
+                        <div class="content-left">
+                            <h1>Virtual reality</h1>
+                            <h4>Online course to prepare you for a career as a 3D modeler for film and games</h4>
+                        </div>
+                        <div class="content-right">
+                            <h5>VR Games</h5>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- slide_03 -->
+            <li class="slide-img">
+                <img src="./img/vr-img_03.jpg" alt="">
+                <div class="slide-content">
+                    <div class="slide-container">
+                        <div class="content-left">
+                            <h1>Virtual reality</h1>
+                            <h4>Online course to prepare you for a career as a 3D modeler for film and games</h4>
+                        </div>
+                        <div class="content-right">
+                            <h5>VR Games</h5>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+        <!-- button -->
+        <a class="slide-btn slide-control-prev" href="#slideIndicator" role="button" data-slide="prev">
+            <span class="slide-icon slide-prev-icon" aria-hidden="true">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+        </a>
+        <a class="slide-btn slide-control-next" href="#slideIndicator" role="button" data-slide="next">
+            <span class="slide-icon slide-next-icon" aria-hidden="true">
+                <i class="fas fa-chevron-right"></i>
+            </span>
+        </a>
+    </section>
+    <!-- ////////////////// main section -->
+    <section class="main-section">
+
+        <!-- ////////////////// about -->
+        <div class="about page" id="section1">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="section-content about-section">
+                    <!-- about section 01 -->
+                    <div class="about-content about-content-left">
+                        <div class="about-content-container">
+                            <div class="img">
+                                <img data-lazy-src="./img/about_img_01.jpg" alt="">
+                            </div>
+                            <h4 class="second-title">OUR STUDIO</h4>
+                            <p>Founded in 2002, Infinity Ward is the original studio behind the Call of Duty
+                                franchise.
+                                We are located in Woodland Hills, California, just outside of Los Angeles and have
+                                offices in Poland, Mexico and our newest in Austin, Texas.</p>
+                        </div>
+                    </div>
+                    <!-- about section 02 -->
+                    <div class="about-content about-content-right">
+                        <div class="about-right-container">
+                            <!-- list 01 -->
+                            <div class="about-list-service">
+                                <div class="list-icon">
+                                    <div class="icon-img">
+                                        <img src="./img/icon_01.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="list-content">
+                                    <span class="third-title">Vistual Reality</span>
+                                    <p>Training, education, and collaboration are only a few areas where VR is
+                                        transforming
+                                        how companies sell, market, and deliver their products to customers. </p>
+                                </div>
+
+                            </div>
+                            <!-- list 02 -->
+                            <div class="about-list-service">
+                                <div class="list-icon">
+                                    <div class="icon-img">
+                                        <img src="./img/icon_02.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="list-content">
+                                    <span class="third-title">Augmented Reality</span>
+                                    <p>Width the most recent addition of ARKit by Apple and ARCore by Google. AR
+                                        technologes are now becoming widely available to anynoe width an iOS or
+                                        Android
+                                        device.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <!-- list 03 -->
+                            <div class="about-list-service">
+                                <div class="list-icon">
+                                    <div class="icon-img">
+                                        <img src="./img/icon_03.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="list-content">
+                                    <span class="third-title">Mixed Reality</span>
+                                    <p>Blending the physical and virtual worlds. Mixed Reality is creating a new
+                                        form of
+                                        interaction where players and objects can co-exist between both realites.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////// features -->
+        <div class="features page" id="section2">
+            <div class="container">
+                <h2 class="section-title">Features</h2>
+                <div class="features-section">
+                    <!-- features section 01 -->
+                    <div class="section-content features-section-content">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-12 ">
+                                <h4 class="second-title">WebVR – Experience Virtual Reality Even More </h4>
+                                <p>Present your VR apps in your web browser and share them in a quick and easy way via a
+                                    link.
+                                    Optimised for tablet, desktop PC and smartphone. No need to install any bulky apps
+                                    or
+                                    software.</p>
+                            </div>
+                            <div class="col-lg-7 col-sm-12 ">
+                                <div class="features-img-r">
+                                    <img data-lazy-src="./img/ft_img_01.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- features section 02 -->
+                    <div class="section-content features-section-content">
+                        <div class="row">
+                            <div class="col-lg-7 col-sm-12 ">
+                                <div class="features-img-l">
+                                    <img src="./img/ft_img_02.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-12 ">
+                                <h4 class="second-title">Web Editor – Create AR apps online, no installation necessary
+                                </h4>
+                                <p>You do not need to install any software to create your own AR applications. In fact,
+                                    you
+                                    can easily build everything using the mobfish STUDIO Web Editor. You can do so in
+                                    your
+                                    favourite browser – no programming knowledge necessary.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="experience">
+                        <div class="page-description">
+                            <p class="page-description-category">
+                                Why Work With Us?</p>
+                            <h3 class="page-description-heading">
+                                Over a decade of experience in innovation</h3>
+                            <!-- invonto -->
+                            <div class="row invonto-row">
+                                <div class="col-lg-5 col-sm-12 invonto-metrics">
+                                    <div class="metric">
+                                        <div class="metric-value">100%</div>
+                                        <div class="metric-title">Made in America</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">10</div>
+                                        <div class="metric-title">Fortune 500 Clients</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">12</div>
+                                        <div class="metric-title">B2B Industries</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">110+</div>
+                                        <div class="metric-title">Successful Projects</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">198M+</div>
+                                        <div class="metric-title">Application Users</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-value">$2.65B</div>
+                                        <div class="metric-title">Total Client Revenue</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-sm-12 invonto-clients">
+                                    <div class="row clients-row">
+                                        <!-- img -->
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_01.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_02.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_03.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_04.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_05.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_06.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_07.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_08.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_09.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_10.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-png">
+                                                <img src="./img/logo_11.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="success-img">
+                                                <img src="./img/logo_12.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////// products -->
+        <div class="products page" id="section3">
+            <div class="container">
+                <h2 class="section-title">Products</h2>
+                <div class="gallery">
+                    <ul class="controls">
+                        <li class="col-lg col-md-6 buttons active" data-filter="all">all</li>
+                        <li class="col-lg col-md-6 buttons" data-filter="games">games</li>
+                        <li class="col-lg col-md-6 buttons" data-filter="exhibition">exhibition</li>
+                        <li class="col-lg col-md-6 buttons" data-filter="web">web</li>
+                    </ul>
+                    <div class="image-container">
+                        <a href="./img/game_img_01.jpg" class="image games">
+                            <img data-lazy-src="./img/game_img_01.jpg" alt="">
+                        </a>
+                        <a href="./img/game_img_02.jpg" class="image games">
+                            <img data-lazy-src="./img/game_img_02.jpg" alt="">
+                        </a>
+                        <a href="./img/game_img_03.jpg" class="image games">
+                            <img data-lazy-src="./img/game_img_03.jpg" alt="">
+                        </a>
+                        <a href="./img/ex_img_01.jpg" class="image exhibition">
+                            <img data-lazy-src="./img/ex_img_01.jpg" alt="">
+                        </a>
+                        <a href="./img/ex_img_02.jpg" class="image exhibition">
+                            <img data-lazy-src="./img/ex_img_02.jpg" alt="">
+                        </a>
+                        <a href="./img/ex_img_03.jpg" class="image exhibition">
+                            <img data-lazy-src="./img/ex_img_03.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////// contact  -->
+        <div class="contact page" id="section4">
+            <div class="container">
+                <h2 class="section-title title-contact">Contact</h2>
+                <div class="row justify-content-lg-between contact-row">
+                    <!-- email -->
+                    <div class="col-lg-5 item form-layout">
+                        <div class="form-content">
+                            <div class="form-content-title">
+                                <h3 class="page-heading">Enquire now!</h3>
+                                <p>Send us an enquiry so we can assist you in making the right decision for your future.
+                                </p>
+                            </div>
+                            <form class="form-container">
+                                <!-- name -->
+                                <div class="row form-name">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <!-- email -->
+                                <div class="form-group form-email">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-color">We'll never share your email
+                                        with
+                                        anyone else.</small>
+                                </div>
+                                <!-- password -->
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Password">
+                                </div>
+                                <!-- checkbox -->
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Subscribe to get our latest
+                                        resources and curated blog content</label>
+                                </div>
+                                <!-- button -->
+                                <div class="button-container">
+                                    <button type="submit" class="btn submit-btn">Enquire
+                                        now!</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!-- map -->
+                    <div class="col-lg-6 item text-layout">
+                        <!-- ////////////////// slide -->
+                        <div id="big-hero" class="splide">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="img_box">
+                                            <div class="dot">
+                                                <span>❛❛</span>
+                                            </div>
+                                            <p><strong>VR Lab seemed too good to be true. Looking back, it was the
+                                                    best decision.</strong></p>
+                                            <p>Ever since I started, every mentor and staff member have been so hands-on
+                                                and directly involved in my learning. Co-Directors of top box office
+                                                movies and supervisors of major Netflix TV shows are giving me feedback
+                                                on my projects. Students also have access to a strong community, and an
+                                                awesome career development class to prepare you for your dream job.</p>
+                                            <div class="photo_card">
+                                                <div class="photo-image"><img src="./img/photo_01.jpg">
+                                                </div>
+                                                <div class="photo-name">
+                                                    <span>Stephanie S</span>
+                                                    <br>
+                                                    <strong>3D Modeling</strong>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="img_box">
+                                            <div class="dot">
+                                                <span>❛❛</span>
+                                            </div>
+                                            <p><strong>You're not just another number.</strong></p>
+                                            <p>I always dreamed of breaking into the entertainment industry and since
+                                                joining VR Lab I realised it's not an unachievable dream. VR Lab has a
+                                                way of mentoring students that I hadn't experienced
+                                                before. My mentor was always pushing me in order to become
+                                                industry-ready. Mentors are always available for feedback and take a
+                                                proactive approach to teaching. Studying online makes for a more
+                                                dedicated and uninterrupted learning experience.</p>
+                                            <div class="photo_card">
+                                                <div class="photo-image"><img src="./img/photo_02.jpg">
+                                                </div>
+                                                <div class="photo-name">
+                                                    <span>Stephen C</span>
+                                                    <br>
+                                                    <strong>3D Animator</strong>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="img_box">
+                                            <div class="dot">
+                                                <span>❛❛</span>
+                                            </div>
+                                            <p><strong>I have nothing but positive things to say about my experience at
+                                                    VR Lab.</strong></p>
+                                            <p>I recently finished Introduction to 3D Modeling course. I went in with
+                                                about a year’s worth of other online 3D modeling courses, but nothing
+                                                compared to VR Lab. I learnt so much from this course, and I had an
+                                                amazing mentor (Anton Tenitsky) who pushed me to perfection. It was the
+                                                best decision I made in order to pursue my end goal. I took the next
+                                                step and enrolled in the Advanced Diploma!</p>
+                                            <div class="photo_card">
+                                                <div class="photo-image"><img src="./img/photo_03.jpg">
+                                                </div>
+                                                <div class="photo-name">
+                                                    <span>Luis M</span>
+                                                    <br>
+                                                    <strong>3D Animator</strong>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ////////////////// scroll top -->
+    <div class="scroll-top goTop">
+        <div class="top-icon">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+    <!-- ////////////////// footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 footer-company">
+                    <div class="company-logo"><img src="./img/logo_lg.png" alt=""></div>
+                    <p class="footer-company-text">
+                        VR Lab <br>Taipei, Taiwan
+                    </p>
+                    <p class="footer-company-est">Est. 2021</p>
+                    <!-- social -->
+                    <div class="footer-social">
+
+                        <ul class="social-links">
+                            <li class="social-links-item">
+                                <a href="javascript:;" class="social-links-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="javascript:;" class="social-links-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="javascript:;" class="social-links-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="javascript:;" class="social-links-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 footer-nav">
+                    <!-- link -->
+                    <div class="footer-nav-container">
+                        <div class="col-lg-4 footer-nav-links">
+                            <h4 class="footer-nav-title">
+                                Help center
+                            </h4>
+                            <ul class="list">
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">Contact Us</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">Help Center</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 footer-nav-links">
+                            <h4 class="footer-nav-title">
+                                Company
+                            </h4>
+                            <ul class="list">
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">News</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">Careers</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">Our People</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;">Experiences</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 footer-nav-links">
+                            <h4 class="footer-nav-title">
+                                VR Lab APP
+                            </h4>
+                            <ul class="list">
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;"><img class="app-img"
+                                            src="./img/app-store-png.png" alt=""></a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a class="item-link" href="javascript:;"><img class="app-img"
+                                            src="./img/google-play-png.png" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>Copyright © 2021 VR Lab</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="scroll_report"></div>
+
+    <!-- ========================================================================= script -->
+    <!-- jQ -->
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <!-- boot js -->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- animate js -->
+    <script src="./js/animate.js"></script>
+    <!-- slide -->
+    <script src="./lib/splide/dist/js/splide.min.js">
+        import Splide from '@splidejs/splide';
+    </script>
+    <!-- js -->
+    <script src="./js/function.js"></script>
+    <!-- EasyLazy 圖片加載 -->
+    <!-- 圖片格式 img data-lazy-src="./img/..." -->
+    <script src="./lib/EasyLazyload.min.js"></script>
+    <script>
+        lazyLoadInit({
+            showTime: 1100,
+            onLoadBackEnd: function (i, e) {
+                console.log("onLoadBackEnd:" + i);
+            },
+            onLoadBackStart: function (i, e) {
+                console.log("onLoadBackStart:" + i);
+            }
+        });
+    </script>
+
+    <!-- magnific popup js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
+    <script src="./lib/jquery.magnific-popup.min.js"></script>
+
+</body>
+
+</html>
