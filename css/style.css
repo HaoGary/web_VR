@@ -844,11 +844,12 @@ img{
     .features-img-l{
          padding: 32px 0;
      }
-
 }
 
 @media (min-width:375px) {
-    
+    .about, .features, .products, .contact{
+        padding-top: 60px;
+    }
     .section-title::before{
         width: 20%;
         right: 75%;
@@ -860,10 +861,23 @@ img{
     .invonto-metrics {
         grid-template-columns: repeat(2,1fr);
     }
+    .footer-company{
+        text-align: center;
+    }
+    .social-links{
+        margin-top: 0;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
     .footer-nav-container{
         flex-wrap: wrap;
     }
     .footer-nav-links{
+        text-align: center;
+        width: 50%;
         padding: 0;
+    }
+    .footer-copyright{
+        text-align: center;
     }
 }
