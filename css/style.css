@@ -367,7 +367,7 @@ img{
     background-image: url('../img/bg_02.svg'),url('../img/bg_01.svg');
     background-repeat: repeat-y;
     background-size: 100%;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 /* ///////////////////////////////////////// about */
 .about{
